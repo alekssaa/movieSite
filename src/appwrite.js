@@ -1,8 +1,8 @@
 import { Client, Databases, ID, Query } from "appwrite";
 
-const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID;
-const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
-const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID;
+const PROJECT_ID = "67ac699c001ec1111b48";
+const DATABASE_ID = "67ac6b1a003b1d4f47b8";
+const COLLECTION_ID = "67ac6b6e000d098f6a58";
 
 const client = new Client()
   .setEndpoint("https://cloud.appwrite.io/v1")

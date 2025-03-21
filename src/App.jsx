@@ -5,7 +5,9 @@ import MovieCard from "./components/MovieCard";
 import { useDebounce } from "react-use";
 import { getTrendingMovies, updateSearchCount } from "./appwrite";
 const API_BASE_URL = "https://api.themoviedb.org/3";
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+
+const API_KEY =
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiYjcwNzYwOWMzYTQxOTljMGJkNDQxYWI0MzdkNjMwMSIsIm5iZiI6MTczOTE4Mzg5OC45NzUwMDAxLCJzdWIiOiI2N2E5ZDcxYWQxNWU0ZjNkOTQ5MzcxYjgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.jCJiIwid7-Ns37IxplMRnwJ6Yhxio8OVbr6ckYJKWq4";
 const API_OPTIONS = {
   method: "GET",
   headers: {
